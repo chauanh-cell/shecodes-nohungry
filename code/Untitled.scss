@@ -14,17 +14,17 @@ $enable-print-styles:       true;
 // Colors
 
 $theme-colors: (
-  primary: #66CCFF,
+  primary: #FF3333,
   secondary: #4f70ce,
   light: #f3f3f3,
-  dark: #FFFFFF,
-  info: BLACK,
+  dark: #151515,
+  info: #ccc,
   success: #28a745,
   warning: #ffc107,
   danger: #dc3545
 );
 
-
+$body-bg: white;
 $body-color: #333;
 
 
@@ -37,13 +37,8 @@ $headings-font-family: $font-family-base;
 $display-font-family: $font-family-base;
 $font-weight-normal: 200;
 $headings-font-weight: 200;
-$lead-font-size:   1.30rem;
+$lead-font-size:   2.0rem;
 
 $spacer: 1.5rem;
-
-
-
-
-
 
 @import 'bootstrap-4.3.1';
