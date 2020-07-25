@@ -4,39 +4,72 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- PAGE settings -->
+  <link rel="icon" href="https://templates.pingendo.com/assets/Pingendo_favicon.ico">
+  <title>Pricing</title>
+  <meta name="description" content="Wireframe design of a pricing table by Pingendo">
+  <meta name="keywords" content="Pingendo bootstrap example template wireframe pricing table">
+  <meta name="author" content="Pingendo">
+  <!-- CSS dependencies -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css">
-  <link rel="stylesheet" href="https://static.pingendo.com/bootstrap/bootstrap-4.3.1.css">
+  <link rel="stylesheet" href="wireframe.css">
 </head>
 
-<body>
-  <nav class="navbar navbar-expand-md navbar-dark bg-primary">
-    <div class="container"> <a class="navbar-brand" href="#">
-        <i class="fa d-inline fa-lg fa-stop-circle"></i>
-        <b> BRAND</b>
-      </a> <button class="navbar-toggler navbar-toggler-right border-0" type="button" data-toggle="collapse" data-target="#navbar16">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbar16">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item"> <a class="nav-link" href="#">Features</a> </li>
-          <li class="nav-item"> <a class="nav-link" href="#">Pricing</a> </li>
-          <li class="nav-item"> <a class="nav-link" href="#">About</a> </li>
-          <li class="nav-item"> <a class="nav-link" href="#">FAQ</a> </li>
-        </ul> <a class="btn navbar-btn ml-md-2 btn-light text-dark">Contact us</a>
-      </div>
-    </div>
-  </nav>
-  <div class="py-4">
+<body class="bg-light">
+  <div class="d-flex flex-column flex-md-row align-items-center p-3 mb-3 box-shadow border-bottom">
+    <h5 class="my-0 mr-md-auto font-weight-normal">NO HUNGRY</h5>
+    <nav class="my-2 my-md-0 mr-md-3">
+      <a class="p-2 text-dark" href="#">About us</a>
+      <a class="p-2 text-dark" href="#">Hỗ trợ</a>
+      <a class="btn btn-outline-info" href="#">Đăng nhập</a><a class="p-2 text-dark" href="#">Đăng ký</a>
+    </nav>
+  </div>
+  <div class="pt-5 text-center" style="	background-image: url(https://pingendo.com/site-assets/cover.jpg);	background-position: top left;	background-size: 100%;	background-repeat: repeat;">
     <div class="container">
       <div class="row">
-        <div class="col-6 p-3"> <img class="img-fluid d-block" src="https://static.pingendo.com/cover-bubble-light.svg">
-          <div class="row"></div>
+        <div class="col-md-9 mx-auto">
+          <h1 class="display-4 text-uppercase">PHƯƠNG THỨC VẬN CHUYỂN</h1>
+          <p class="lead">Chọn một trong hai phương thức dưới đây</p>
         </div>
-        <div class="col-6 p-3"> <img class="img-fluid d-block" src="https://static.pingendo.com/cover-bubble-dark.svg"> </div>
       </div>
     </div>
   </div>
-  <div class="py-5"></div>
+  <div class="text-center">
+    <div class="container">
+      <div class="row pt-4">
+        <div class="col-md-6">
+          <div class="card mb-4 box-shadow">
+            <div class="card-header">
+              <h4 class="my-0 font-weight-normal">Tự lấy</h4>
+            </div>
+            <div class="card-body">
+              <h1><b>$0&nbsp;</b></h1>
+              <ul class="list-unstyled mt-3 mb-4">
+                <li>Người nhận tự di chuyển đến địa điểm<br>(nhà hàng, nơi phát...)để nhận<br></li>
+              </ul>
+              <button type="button" class="btn btn-lg btn-block btn-outline-info">Áp dụng</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="card mb-4 box-shadow">
+            <div class="card-header">
+              <h4 class="my-0 font-weight-normal">Sử dụng dịch vụ&nbsp;</h4>
+            </div>
+            <div class="card-body">
+              <h1><b>$1</b></h1>
+              <ul class="list-unstyled mt-3 mb-4">
+                <li>Bạn sẽ dùng dịch vụ giao hàng do chúng&nbsp;<br>tôi cung cấp và phải trả tiền cho nó</li>
+              </ul>
+              <button type="button" class="btn btn-lg btn-block btn-primary">
+                <a class="" href="modau.html">Áp dụng</a>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
   <div class="py-3">
     <div class="container">
       <div class="row">
@@ -58,7 +91,7 @@
         </div>
         <div class="col-lg-3 col-md-6 p-3">
           <h5> <b>About</b> </h5>
-          <p class="mb-0"> I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls.</p>
+          <p class="mb-0">Tiết kiệm thức ăn không dùng đến<br>Mang chúng cho người cần<br>Bảo vệ môi trường</p>
         </div>
         <div class="col-lg-3 col-md-6 p-3">
           <h5> <b>Follow us</b> </h5>
@@ -86,16 +119,9 @@
       </div>
     </div>
   </div>
-  <div class="py-5">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12"></div>
-      </div>
-    </div>
-  </div>
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
   <pingendo onclick="window.open('https://pingendo.com/', '_blank')" style="cursor:pointer;position: fixed;bottom: 20px;right:20px;padding:4px;background-color: #00b0eb;border-radius: 8px; width:220px;display:flex;flex-direction:row;align-items:center;justify-content:center;font-size:14px;color:white">Made with Pingendo Free&nbsp;&nbsp;<img src="https://pingendo.com/site-assets/Pingendo_logo_big.png" class="d-block" alt="Pingendo logo" height="16"></pingendo>
 </body>
 
